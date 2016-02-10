@@ -87,7 +87,7 @@
                                                         </value>
                                                         <value name="BOTHMOVRIGHT">
                                                           <block type="sensor_light" id="377">
-                                                            <field name="LIGHT">REAR</field>
+                                                            <field name="LIGHT">LEFT</field>
                                                           </block>
                                                         </value>
                                                         <next>
