@@ -99,7 +99,7 @@
                                                             </value>
                                                             <value name="BOTHMOVRIGHT">
                                                               <block type="sensor_light" id="396">
-                                                                <field name="LIGHT">RIGHT</field>
+                                                                <field name="LIGHT">REAR</field>
                                                               </block>
                                                             </value>
                                                           </block>
