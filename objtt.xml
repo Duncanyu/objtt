@@ -131,7 +131,7 @@
                                                                                 </value>
                                                                                 <value name="BOTHMOVRIGHT">
                                                                                   <block type="sensor_object" id="211">
-                                                                                    <field name="OBJECT">RIGHTFRONT</field>
+                                                                                    <field name="OBJECT">REAR</field>
                                                                                   </block>
                                                                                 </value>
                                                                               </block>
