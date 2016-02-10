@@ -121,7 +121,22 @@
                                                                       <block type="oled_drawtext" id="199">
                                                                         <field name="TEXT">   </field>
                                                                         <next>
-                                                                          <block type="multimedia_doupdate" id="179"></block>
+                                                                          <block type="multimedia_doupdate" id="179">
+                                                                            <next>
+                                                                              <block type="movement_setmotors" id="209" inline="true">
+                                                                                <value name="BOTHMOVLEFT">
+                                                                                  <block type="sensor_object" id="210">
+                                                                                    <field name="OBJECT">LEFTFRONT</field>
+                                                                                  </block>
+                                                                                </value>
+                                                                                <value name="BOTHMOVRIGHT">
+                                                                                  <block type="sensor_object" id="211">
+                                                                                    <field name="OBJECT">LEFTFRONT</field>
+                                                                                  </block>
+                                                                                </value>
+                                                                              </block>
+                                                                            </next>
+                                                                          </block>
                                                                         </next>
                                                                       </block>
                                                                     </next>
