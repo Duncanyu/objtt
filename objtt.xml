@@ -48,7 +48,7 @@
                               <block type="oled_drawnumber" id="180" inline="true">
                                 <value name="NUMBER">
                                   <block type="sensor_object" id="181">
-                                    <field name="OBJECT">REAR</field>
+                                    <field name="OBJECT">RIGHTFRONT</field>
                                   </block>
                                 </value>
                                 <next>
@@ -63,11 +63,25 @@
                                         </value>
                                         <value name="STARTY">
                                           <block type="math_number" id="186">
-                                            <field name="NUM">200</field>
+                                            <field name="NUM">50</field>
                                           </block>
                                         </value>
                                         <next>
-                                          <block type="multimedia_doupdate" id="179"></block>
+                                          <block type="oled_drawnumber" id="182" inline="true">
+                                            <value name="NUMBER">
+                                              <block type="sensor_object" id="183">
+                                                <field name="OBJECT">REAR</field>
+                                              </block>
+                                            </value>
+                                            <next>
+                                              <block type="oled_drawtext" id="187">
+                                                <field name="TEXT">   </field>
+                                                <next>
+                                                  <block type="multimedia_doupdate" id="179"></block>
+                                                </next>
+                                              </block>
+                                            </next>
+                                          </block>
                                         </next>
                                       </block>
                                     </next>
@@ -87,12 +101,5 @@
         </next>
       </block>
     </statement>
-  </block>
-  <block type="oled_drawnumber" id="182" inline="true" x="355" y="251">
-    <value name="NUMBER">
-      <block type="sensor_object" id="183">
-        <field name="OBJECT">REAR</field>
-      </block>
-    </value>
   </block>
 </xml>
